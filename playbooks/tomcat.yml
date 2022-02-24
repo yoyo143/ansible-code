@@ -24,7 +24,7 @@
          name: "{{ java_yum }}"
          state: installed
        when:
-         ansible_distribution == "RedHat"
+         ansible_distribution == "RedHa"
 
      - name: To create a group
        group:
